@@ -13593,7 +13593,7 @@
 				<name>Cooking Archetype: Sous Chef</name>
 				<text>The archetypal Sous Chef believes that their allies are more than worthy of their cooking. They have proven that their stomachs can make the most of the powers instilled in morsels, and a Sous Chef will use that power to safeguard their health at all costs.</text>
 				<text/>
-				<text>Additionally, when you feed a morsel to a willing creature that you can touch (other than yourself), you can do so as a bonus action.<text/>
+				<text>Additionally, when you feed a morsel to a willing creature that you can touch (other than yourself), you can do so as a bonus action.</text>
 				<text>Source: Cook Class p.4</text>
 			</feature>
 		</autolevel>
@@ -13625,7 +13625,7 @@
     <autolevel level="7">
 			<feature>
 				<name>Order Up</name>
-				<text>Beginning at 7th level, when you make morsels during a long rest, you can make a number of additional morsels equal to your Constitution ability modifier, none of which can have prerequisites. <text/>
+				<text>Beginning at 7th level, when you make morsels during a long rest, you can make a number of additional morsels equal to your Constitution ability modifier, none of which can have prerequisites. </text>
 				<text/>
 				<text>At 11th level, you can make these additional morsels during a short rest as well as during a long rest.</text>
 				<text/>
@@ -13654,7 +13654,7 @@
 				<name>Aromatic Scent (Sous Chef)</name>
 				<text>By 10th level, the continuous consumption of culinary delights has infused your body with a thousand revitalizing smells that stir your companions to action. As an action you can expel these smells in one powerful wave. All friendly creatures (including yourself) within 30 feet of you that you can see regain a number of hit points equal to your Cook Level, and they can each immediately use their reaction to make a single weapon attack or cast one cantrip they know that requires an attack roll or saving throw (their choice).</text>
 				<text/>
-				<text>Once you use this feature, you must finish a long rest before you can use it again.<text/>
+				<text>Once you use this feature, you must finish a long rest before you can use it again.</text>
 				<text/>
 				<text>Source: Cook Class p.4</text>
 				<counter><name>Aromatic Scent</name><value>1</value><reset>L</reset></counter>
