@@ -1,0 +1,1087 @@
+<?xml version="1.0"?>
+<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+	<class>
+		<name>Cook</name>
+		<hd>8</hd>
+		<proficiency>Constitution, Charisma, Animal Handling, Arcana, Athletics, Medicine, Nature, Performance, Persuasion, Sleight of Hand, Survival</proficiency>
+		<spellAbility>Charisma</spellAbility>
+		<numSkills>3</numSkills>
+		<armor>Light armor, medium armor</armor>
+		<weapons>Simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
+		<tools>Cook's utensils</tools>
+		<wealth>4d4x10</wealth>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Starting Cook</name>
+				<text>As a 1st-level Cook, you begin play with 8+your Constitution modifier hit points.</text>
+				<text />
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>&#8226; Armor: Light armor, medium armor</text>
+				<text>&#8226; Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
+				<text>&#8226; Tools: Cook's utensils</text>
+				<text>&#8226; Skills: Choose three from Animal Handling, Arcana, Athletics, Medicine, Nature, Performance, Persuasion, Sleight of Hand, and Survival</text>
+				<text />
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>&#8226; (a) a longsword or (b) a hand crossbow and 20 bolts</text>
+				<text>&#8226; (a) leather armor or (b) scale mail</text>
+				<text>&#8226; (a) two daggers or (b) two light hammers</text>
+				<text>&#8226; (a) an explorer's pack or (b) a scholar's pack</text>
+				<text>&#8226; Cook's Utensils and a Cook's Bag</text>
+				<text />
+				<text>Alternatively, you could begin with starting wealth of 4d4 x 10 gp and purchase starting items of your choice.</text>
+				<text />
+				<text>Source: Cook Class p. 1</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Multiclass Cook</name>
+				<text>To multiclass as a Cook, you must meet the following prerequisites:</text>
+				<text>&#8226; Constitution 13</text>
+				<text />
+				<text>You gain the following proficiencies:</text>
+				<text>&#8226; Light armor, medium armor, simple weapons, one skill from the class's skill list, cook's utensils</text>
+				<text />
+				<text>Source: Cook Class p. 10</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Cook's Bag</name>
+				<text>At first level, you craft a Cook's Bag, a bag that magically preserves not only your morsels (described below, added as spells in the Morsels spell list), but also the ingredients required to make them.</text>
+				<text>	You must replenish these ingredients at least once every 30 days. When you do so, you can buy 10 gp worth of food from a market, or you can spend 8 hours scavenging food from your surroundings.</text>
+				<text>	If you lose this bag, you can create a new one by expending 100 gp worth of leather, gems, and other raw materials. Doing so takes 8 hours of work.</text>
+				<text />
+				<text>Source: Cook Class p. 2</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Morsels</name>
+				<text>Years of cooking have taught you that every meal has that one perfect bite, a morsel where all the ingredients mix together into something truly special. You have learned how to instill this morsel with magical effects dependent on the ingredients of the morsel. Creatures that ingest your morsels are given these effects.</text>
+				<text>	Choose three morsels of your choice, detailed at the end of the class description. These are the morsels that you can prepare. A creature can only be under the effects of one morsel at a time. If a creature is under the effects of a morsel, and they ingest another morsel, the original effect ends.</text>
+				<text>	You learn how to prepare additional types of morsels as you level as detailed in the Cook Table. Each time you gain a level, you can replace one morsel you know with a different one.</text>
+				<text>	You can cook a number of morsels equal to your Constitution modifier every short or long rest. You can cook the same type of morsel more than once. All morsels are stored in your Cook's Bag and expire if taken out for longer than 6 seconds, or the next time you cook morsels.</text>
+				<text>	You can use your action to feed a morsel to a creature. When you do so, you reach into your Cook's bag, pull out a morsel, and feed it to a conscious creature you can touch. They ingest it immediately. You must have a free hand to feed a morsel.</text>
+				<text>	Saving Throws. Some of your morsels require your target to make a saving throw to resist the effect. The saving throw DC is calculated as follows:</text>
+				<text />
+				<text>	Morsel save DC = 8 + your proficiency bonus + your Constitution modifier</text>
+				<text />
+				<text>Creatures who do not have mouths or analogous orifices can still be affected by your morsels. Mere contact with your morsels imparts a weakened effect. If a creature cannot ingest your morsel, it has advantage on any saving throws it makes against the morsel's effect.</text>
+				<text />
+				<text>Source: Cook Class p. 2</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Smelling Salts</name>
+				<text>At 1st level, you discover a mix of spices that creates such a visceral and powerful assault on the nose as to break a creature from its stupor. You can use a bonus action to choose one creature that you can touch. You wave the spices under the creature's nose, and it can immediately repeat a saving throw against one condition it currently has, ending the condition on a success. The condition can be the Charmed or Frightened condition.</text>
+				<text>	Once a creature repeats a saving throw with this feature, it cannot do so again until it finishes a short or long rest.</text>
+				<text>	At 7th level, the chosen condition can be the Stunned condition.</text>
+				<text>	At 13th level, the chosen condition can be the Paralyzed condition.</text>
+				<text>	At 17th level, the chosen creature has advantage on the repeated saving throw.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Expertise</name>
+				<text>At 2nd level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with cook's utensils. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+				<text>	At 9th level, you can choose two more of your proficiencies (in skills or with cook's utensils) to gain this benefit.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature>
+				<name>Cook Archetype</name>
+				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your cook abilities: Sous Chef, Mess Sergeant, Hash Slinger, Brewmeister, or Monster Masher, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 6th , 10th, 14th, and 18th level.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature>
+				<name>Rotund Reflection</name>
+				<text>At 5th level, you gain the ability to repel enemies that attack you. Your stomach is of utmost importance, and you have toned your belly to be tough and somewhat gelatinous. When a Large or smaller creature within 5 feet of you hits you with a melee attack, you can use your reaction to cause the creature to make a Dexterity saving throw against your Morsel save DC. On a failed save, their speed becomes 0 until the end of the turn, and they are either pushed 10 ft. away from you or knocked prone (your choice).</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature>
+				<name>Order Up</name>
+				<text>Beginning at 7th level, when you make morsels during a long rest, you can make a number of additional morsels equal to your Constitution ability modifier, none of which can have prerequisites.</text>
+				<text>At 11th level, you can make these additional morsels during a short rest as well as during a long rest.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature>
+				<name>Iron Stomach</name>
+				<text>At 9th level, a lifetime of eating any and all sorts of foods has prepared your stomach for anything. You are immune to any ingested poisons and the poisoned condition.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature>
+				<name>Soul of Food</name>
+				<text>At 15th level, you have attuned your body's life force to the nourishing energies of the world. You can cast Create Food and Water once with this feature and regain the ability to do so when you finish a long rest. When you do so, you create 100 gold pieces worth of food that is not bland, but flavorful and enjoyable.</text>
+				<text>	In addition, if you make morsels, and you have no ingredients left, you conjure the necessary ingredients as part of making the morsels.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature>
+				<name>Fulfilling Meal</name>
+				<text>At 17th level, whenever you feed a morsel to a creature that you have shared a long rest with (including yourself), you can double the duration of the morsel's effect.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="20">
+			<feature>
+				<name>Leftovers</name>
+				<text>At 20th level, when you roll initiative and have no morsels left, you conjure one morsel that you know how to prepare inside your Cook's Bag.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Cook Archetype: Sous Chef</name>
+				<text>The archetypal Sous Chef believes that their allies are more than worthy of their cooking. They have proven that their stomachs can make the most of the powers instilled in morsels, and a Sous Chef will use that power to safeguard their health at all costs.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>We Deliver (Sous Chef)</name>
+				<text>At 3rd level, you become a caretaker of heroes, ready at any moment to help your allies, even at range. When you feed a morsel to a willing creature, the creature you feed can be up to 30 feet away from you, so long as you can see them, and their mouth is not blocked by total cover. You throw the morsel directly into their mouth, and they ingest it immediately.</text>
+				<text>	Additionally, when you feed a morsel to a willing creature that you can touch (other than yourself), you can do so as a bonus action.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Secret Sauce (Sous Chef)</name>
+				<text>At 6th level, you create a signature sauce that you dab onto all of your beneficial morsels. Whenever you feed a morsel to a friendly creature, it regains a number of hit points equal to your Constitution modifier.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Aromatic Scent (Sous Chef)</name>
+				<text>By 10th level, the continuous consumption of culinary delights has infused your body with a thousand revitalizing smells that stir your companions to action. As an action you can expel these smells in one powerful wave. All friendly creatures (including yourself) within 30 feet of you that you can see regain a number of hit points equal to your Cook Level, and they can each immediately use their reaction to make a single weapon attack or cast one cantrip they know that requires an attack roll or saving throw (their choice).</text>
+				<text>	Once you use this feature, you must finish a long rest before you can use it again.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Magnificent Meal (Sous Chef)</name>
+				<text>Beginning at 14th level, you can prepare a magical feast that strengthens both body and will. You gain the ability to cast the Heroes' Feast spell. When you do so, you replace the material components of the spell with fine foods worth at least 500 gp, which the spell consumes.</text>
+				<text>	Once you cast Heroes' Feast in this way, you cannot do so again until you have finished a long rest.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Legendary Morsel (Sous Chef)</name>
+				<text>At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.</text>
+				<text>	Monkey's Brains. The well-seasoned brains of the world's most capable simians. For 10 minutes, if the target fails a saving throw, they can choose to succeed instead. If they choose to do so, this morsel's effect ends.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Cook Archetype: Mess Sergeant</name>
+				<text>The archetypal Mess Sergeant believes in a stringent diet, complete control over what goes in and out of one's body. They seek bodily perfection through a calculated input of just the right nutrients, and they are overjoyed by any chance to show off their physical prowess.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Never Satisfied (Mess Sergeant)</name>
+				<text>At 3rd level you gain the ability to eat very quickly. On your turn, you can feed a morsel to yourself as a bonus action.</text>
+				<text>	Additionally, your healthy appetite bolsters your health. Your hit point maximum immediately increases by 3 and increases by 1 whenever you gain a level in this class.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+				<modifier category="bonus">hp +3</modifier>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Raucous Belch (Mess Sergeant)</name>
+				<text>At 6th level, you gain the ability to taunt your foes with a loud and odorous burp. As an action you can have each hostile creature in a 10 foot cone originating from you make a Wisdom saving throw against your Morsel save DC. On a failed save, the target(s) have disadvantage on attack rolls against all creatures other than you until the start of your next turn.</text>
+				<text>	You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Sturdy Stomach (Mess Sergeant)</name>
+				<text>At 10th level, you can be under the effects of two morsels at the same time.</text>
+				<text>	If you are under the effects of two morsels and ingest a third morsel, you lose one of the original effects (your choice).</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Strict Diet (Mess Sergeant)</name>
+				<text>At 14th level your diet optimizes your body beyond its normal limits. Choose Strength, Dexterity, or Constitution. Increase the ability score of the chosen ability by 2, and the limit for that ability score becomes 22.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Legendary Morsel (Mess Sergeant)</name>
+				<text>At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.</text>
+				<text>	Crytalline Heart. The heart of a rock candy giant. For 10 minutes, if the target's total for a Strength, Dexterity, or Constitution ability check or saving throw is less than their score for the ability being checked, they can use that score in place of the total.</text>
+				<text />
+				<text>Source: Cook Class p. 4</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Cook Archetype: Hash Slinger</name>
+				<text>The archetypal Hash Slinger believes more in the scientific aspect of food than in the art of it. Food is the fuel, and the body is the fire. If you can control the fuel, you can control the fire.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Bonus Proficiencies (Hash Slinger)</name>
+				<text>When you become a Hash Slinger at 3rd level, you gain proficiency with martial weapons.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>We Deliver Death (Hash Slinger)</name>
+				<text>Also at 3rd level, you gain the ability to feed your enemies at range. When you feed a morsel to a hostile creature, the creature you feed can be up to 30 feet away from you, so long as you can see them, and their mouth or analogous orifice is not blocked by total cover. You throw the morsel directly into their mouth or analogous orifice, and they ingest it immediately.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Extra Attack (Hash Slinger)</name>
+				<text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Horrific Stench (Hash Slinger)</name>
+				<text>At 10th level, your food-based experiments have weaved a sickening and distracting smell into your body that releases when you're in danger. Whenever a hostile creature within 10 feet of you makes an ability check or saving throw, they subtract 1d4 from their roll.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Noxious Strike (Hash Slinger)</name>
+				<text>At 14th level when a creature makes a saving throw against one of your morsel's effects, you can impose disadvantage on the roll. Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Legendary Morsel (Hash Slinger)</name>
+				<text>At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.</text>
+				<text>	Bubbly pill. This Carbon dioxide infused morsel dissolves in the target's stomach, building up pressure inside their body. The target must make a Constitution saving throw. On a failed save they are poisoned and their speed is halved until the end of your next turn. Whether the save is successful or not, if the target is killed within 1 hour, it explodes. All creatures within 10 feet of the target must make a Dexterity saving throw. On a failed save they take 10d6 force damage if the target was Medium sized or smaller, and 5d6 extra force damage for each size category larger than Medium, or half as much damage on a successful save.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Cook Archetype: Brewmeister</name>
+				<text>Where most would see only the danger or the fun in the world's most common vice, the Brewmeister sees potential. Specialists in booze, they study the liquors and ales of the world, each invested with the power of its place, to better craft their own extraordinary brew.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Spiked Morsels (Brewmeister)</name>
+				<text>At 3rd level, you become an expert in alcohol, its benefits and detriments, and you know how to work it into any morsel you prepare.</text>
+				<text>	You gain proficiency with Brewer's Supplies if you don't already have it.</text>
+				<text>	Additionally, when you prepare a morsel, you can choose to spike it, allowing your morsels to build off one another. If a creature is under the effects of a spiked morsel, and they ingest another spiked morsel, the original effect does not end, and the creature becomes intoxicated for 1 minute. An intoxicated creature is immune to the charmed and frightened conditions.</text>
+				<text>	When a creature's intoxication ends, it loses all effects gained from morsels, and the creature can't move or take actions until the end of its next turn as it becomes hungover.</text>
+				<text>	Once a creature has become intoxicated, it can't do so again until it has finished a short or long rest.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Drunken Stumble (Brewmeister)</name>
+				<text>Beginning at 6th level, you start to manipulate your alcoholic additions to provide added benefits to intoxicated creatures.</text>
+				<text>	Creatures you intoxicate increase their speed by 10 feet, and other creatures have disadvantage on opportunity attack rolls against them.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Boozy Yield (Brewmeister)</name>
+				<text>At 10th level, your brew relaxes the muscles, softening the blow of certain assaults.</text>
+				<text>	Creatures you intoxicate gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapon attacks.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Angry Drunk (Brewmeister)</name>
+				<text>At 14th level, you craft your booze to create a frenzied buzz.</text>
+				<text>	Once per turn, when a creature that you have intoxicated hits a creature with an attack, they can add your Constitution modifier to the damage roll.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Legendary Morsel (Brewmeister)</name>
+				<text>At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.</text>
+				<text>	Master Brew. A hard, fine liquor. When ingested, the target immediately becomes intoxicated for 10 minutes. When this intoxication ends, the target does not become hung over.</text>
+				<text />
+				<text>Source: Cook Class p. 5</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Cook Archetype: Monster Masher</name>
+				<text>Most cooks stumble upon the physical power of vitality, or perhaps they simply feel its power in their gut. Monster Mashers cannot stand this ignorance and thus become determined to study the vitality that gives their morsels power. They study all kinds of life, and are always happy to experiment on the living and dead meat.</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Vital Harvest (Monster Masher)</name>
+				<text>At 3rd level, you learn that there is a power left in creatures recently killed. During their last moments, the threat of death brings a creature to full and utmost life. The vital essence of a creature killed in this state lingers, but must be harvested and preserved to be utilized.</text>
+				<text>	If you or an ally kills a hostile creature with a challenge rating of 1 or higher, and the creature's body is not destroyed, you can harvest meat from the body for a special meal if it is of a type you know how to cook (described below). Harvesting this meat takes 1 hour, and you have 24 hours after killing the creature to harvest the meat before the vital essence fades.</text>
+				<text>	You keep this meat in your Cook's Bag until you are ready to prepare it. You can only have one of these meats in your Cook's Bag at a time. As part of a short or long rest, you can prepare the special meal from this meat. A number of creatures equal to 5 + your Constitution modifier can partake of the meal as part of the same short or long rest. These creatures gain a benefit depending on the creature type of the creature from which the meat came. This benefit lasts for 24 hours after the short or long rest ends, or until your next long rest, whichever comes first.</text>
+				<text>	Beast. Your current and maximum hit points increase by 10.</text>
+				<text>	Monstrosity. You have advantage on Strength, Dexterity, and Constitution saving throws against magic.</text>
+				<text>	Ooze. You gain blindsight out to a range of 10 feet.</text>
+				<text>	Plant. While you are standing in direct sunlight, you have advantage on Strength and Constitution checks, and whenever you would regain hit points, treat any dice rolled as having rolled their maximum value.</text>
+				<text>	Aberration. You gain darkvision out to a range of 60 feet and telepathy out to a range of 60 feet.</text>
+				<text>	Dragon. You gain a flying speed of 60 feet. If you end your turn in the air, and nothing is keeping you aloft, you fall.</text>
+				<text>	Fiend. You have advantage on all Charisma and Intelligence checks and saving throws.</text>
+				<text>	Giant. You gain the benefits of the Enlarge spell.</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Autonomous Bag (Monster Masher)</name>
+				<text>At 6th level, you modify your Cook's Bag to use the vitality coursing through a recently taken piece of flesh to cook it into a morsel.</text>
+				<text>	When you deal slashing or piercing damage to a hostile creature that isn't a humanoid, celestial, undead, construct, or fey, with a melee weapon attack, you can cut off a chunk of meat and place it into your Cook's Bag as part of the same attack. The chunk is immediately prepared into the Fresh Cut morsel (described below) by your Cook's Bag. You can't have more than one morsel of this type in your bag at a time.</text>
+				<text>	Your Cook's bag can season and cook the following morsel a number of times equal to your Constitution modifier (minimum of once). You regain expended uses when you finish a long rest.</text>
+				<text>	Fresh Cut. A rare slice of flesh that heals allies and harms foes. When ingested by a friendly creature, the target regains 2d6 hit points. When ingested by a hostile creature, the target must make a Constitution saving throw. On a failed save they take 2d6 acid damage, or half as much damage on a success.</text>
+				<text>	The morsel's healing and damage increase by 1d6 when you reach certain levels in this class: 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), 20th level (7d6).</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Combat Bag (Monster Masher)</name>
+				<text>At 10th level, you modify your Cook's Bag into a weapon that spits your morsels out as projectiles. It counts as a simple, magical ranged weapon that only you are proficient with. It deals 1d12 bludgeoning damage, and has the ammunition (range 30/120) property.</text>
+				<text>	The only ammunition you can use for this weapon are your morsels. You choose which morsel you use as ammunition for each attack before you make an attack roll. When you hit a creature with this weapon, you can have the target immediately ingest the morsel used for ammunition.</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Vital Observance (Monster Masher)</name>
+				<text>At 14th level, your study of the vital essence of creatures allows you to see its ebb and flow, giving you insights into creatures you observe closely.</text>
+				<text>	If you observe a creature for 1 minute, you learn if it has any vulnerabilities, immunities, or resistances and what they are. You need only to be able to see the creature for the duration of the minute to gain this knowledge. You cannot observe more than one creature during this minute.</text>
+				<text>	You can gain knowledge using this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest.</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Legendary Morsel (Monster Masher)</name>
+				<text>At 18th level, you gain the ability to make the following morsel when you take a long rest. When you do so, you can make only one. It doesn't expire until your next long rest, and it doesn't count against the total number of morsels you can prepare.</text>
+				<text>	Vital Meat. A bite of one of your harvests. When prepared, choose one of the benefits listed in your Vital Harvest feature. When this morsel is ingested, the target gains the chosen benefit for 1 minute.</text>
+				<text />
+				<text>Source: Cook Class p. 6</text>
+			</feature>
+		</autolevel>
+	</class>
+
+	<spell>
+		<name>Morsel: Almond Milk</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Warm almond milk sprinkled with nutmeg. When ingested, it prepares the body for sleep. The target must make a Constitution saving throw. On a failed save, they will fall unconscious in 1 minute and remain unconscious for 10 minutes. They wake early if they take any damage or if a creature spends an action to shake or slap them awake.</text>
+		<text>	Creatures that do not need to sleep are unaffected by this morsel.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Carrot Casserole</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Carrots cooked with a dozen herbs and spices. When ingested, it improves eyesight. The target gains darkvision out to a range of 60 feet for 8 hours. If the target already has darkvision, increase its range by 60 feet.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Cow Innards</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A delectable treat that smells terrible. When ingested, it gives the body disgusting breath. The target must make a Constitution saving throw. If it fails, the target has disadvantage on all Charisma checks, and creatures cannot be charmed by the target for 10 minutes. If any creatures were charmed by the target when it ingested the morsel, the effect is suspended for the duration for any creatures that can smell the target.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Flavored Ice</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Cream cold as ice. When ingested, it creates a brain freeze. The target must make an Intelligence saving throw. On a failed save, it takes 1d6 cold damage and has disadvantage on Concentration checks until the start of your next turn. On a successful save, the creature takes half damage and doesn't have disadvantage.</text>
+		<text>	The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Hardened Bread</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Bread baked to be harder than stone. When ingested, it breaks into chunks and clogs the throat. The target must make a Strength saving throw. On a failed save, it takes 1d6 bludgeoning damage and has disadvantage on attack rolls until the start of your next turn. On a successful save, the creature takes half as much damage and doesn't have disadvantage.</text>
+		<text>	The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Herbal Grey Tea</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A cup of steaming tea. When ingested, it clears the mind, and calms the body. The target adds 1d4 to all Constitution saving throws, Intelligence checks, and Wisdom checks for 1 hour.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Invigorating Juices</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A delectable fruit sloshing with good juices. When ingested, the juices bolster the body's constitution. The target gains 1d8 temporary hit points for 1 minute.</text>
+		<text>	The number of temporary hit points gained from this morsel increases by 1d8 when you reach certain levels in this class: 4th level (2d8), 7th level (3d8), 9th level (4d8), 13th level (5d8), 17th level (6d8), and 20th level (7d8).</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Packed Protein</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A fried chicken leg. When ingested, it feeds the muscles at an enhanced rate. For 1 minute, the target adds 1d4 to all damage rolls and ability checks they make using Strength.</text>
+		<text>	The die rolled for this morsel increases when you reach certain levels in this class: 10th level (1d6), 15th level (1d8), 20th level (1d10).</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Smoky Chops</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A smoky bite of pork. When ingested, it reacts with the stomach's juices to create a fiery sensation that warms the body and manifests a fever. The target gains resistance to cold damage and immunity to the poisoned condition for 10 minutes.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Spicy Pepper</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A spicy, roasted pepper. When ingested, it causes intense sweating that greases the body. The target gains resistance to fire damage and immunity to the grappled condition for 10 minutes.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Sugar Crystals</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>A string of crystallized sugars. When ingested, it overcharges the cells. The target's speed increases by 5 feet for 10 minutes.</text>
+		<text>	This bonus increases when you reach certain levels in this class: 5th level (10 feet), 10th level (15 feet), 15th level (20 feet) and 20th level (25 feet).</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Braised Rabbit</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level</text>
+		<text />
+		<text>A rabbit haunch cooked with wine and herbs. When ingested, it instills the body with a springy dexterity. The target gains the effect of the Jump spell for 1 hour.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Buttered Trout</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level</text>
+		<text />
+		<text>Trout coated in butter. When ingested, it seizes the lungs and reworks the body's breathing apparatus. The target gains the effect of the Water Breathing spell for 1 hour. The target also gains a swim speed equal to their movement speed for the duration.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Roast Pheasant</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level</text>
+		<text />
+		<text>Roasted pheasant wing. When ingested, it creates a lightness in the body. For 10 minutes, when the target falls, their rate of descent slows to a rate between 5 feet per round and 60 feet per round (their choice). They can choose their rate of descent again at the start of each of their turns. If they land before the morsel's effect ends, they take no falling damage.</text>
+		<text/>
+		<text>Source: Cook Class p. 7</text>
+	</spell>
+	<spell>
+		<name>Morsel: Spider Eggs</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level</text>
+		<text />
+		<text>Salt-cured spider eggs. When ingested, it improves the body's grip. The target gains the effect of the Spider Climb spell for 1 hour.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Thickening Gruel</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level</text>
+		<text />
+		<text>A hardy porridge . When ingested, it thickens the skin. The target gains the effect of the Barkskin spell for 10 minutes.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Chamomile Tea</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 11th level</text>
+		<text />
+		<text>Tea steeped with Chamomile leaves. When ingested, the tea relaxes the muscles, weakening physical strikes. For 1 minute, whenever the target makes a weapon attack, they must subtract 1d6 from their damage roll for that attack.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Shreevy Leaves</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 11th level</text>
+		<text />
+		<text>Leaves of the Shreeve shrub, baked to release calming chemicals. When ingested, the target must make a Wisdom saving throw. On a failed save, the creature becomes indifferent to all other creatures for 1 minute. The indifference ends early if the target is damaged in any way. A creature who can't be charmed is immune to this effect.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Spectral Sprouts</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 11th level</text>
+		<text />
+		<text>Bean sprouts grown on haunted ground. When ingested, the target gains the benefits of the See Invisibility spell for 1 minute. The target can also use an action to enter or exit the ethereal plane for the duration.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Startouched Seeds</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 11th level</text>
+		<text />
+		<text>Sunflower seeds baked in starlight. When ingested the target rolls 1d4. The creature can recover expended spell slots that have a combined level that is equal to or less than the number rolled. If the recovered spell slots are not used in the next minute, they are lost.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Sweet and Sour Beets</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 11th level</text>
+		<text />
+		<text>Sugared beets dipped in soured creams. When ingested, it softens the skin, weakening the body against physical attacks. For 1 minute, add 1d6 extra damage to the first weapon attack that hits the target on each turn.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Boiled Dragon's Tail</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 15th level</text>
+		<text />
+		<text>A tough chunk of tail, boiled until soft and white. When ingested, the target grows scales across their body, and they sprout a tail made of fire. For 1 minute, the target gains a +1 bonus to AC, and they can use an action to do one of the following:</text>
+		<text>	Frightful Presence. The target roars. Each creature of the target's choice that is within 30 feet of the target must succeed on a Wisdom saving throw or become Frightened of the target for 1 minute. The DC for the saving throw is equal to your Morsel save DC. A creature can repeat its saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful, the creature is immune to the target's Frightful Presence for the next minute.</text>
+		<text>	Tail Swipe. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 4d8 fire damage.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Hydra Tongue</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 15th level</text>
+		<text />
+		<text>Tongue from one of a Hydra's mouths, simmered in strong aromatics. When ingested, the target grows a second head that lasts for 1 minute. The head grants them the following benefits:</text>
+		<text/>
+		<text>&#8226; They gain 1d10 temporary hit points at the start of their turn.</text>
+		<text>&#8226; Any limbs amputated within the last 24 hours regenerate at the start of each of their turns.</text>
+		<text>&#8226; They gain an extra reaction that can only be used for opportunity attacks.</text>
+		<text>&#8226; They gain an extra action that can only be used to take the Disengage, Help, or Search action.</text>
+		<text/>
+		<text>	At the end of the duration, the head falls off and evaporates, leaving behind no trace.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Elemental Pie</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 15th level</text>
+		<text />
+		<text>A pastry with a fruity filling swirled together with the primal elemental salts. When ingested, the power of the elements manifests itself inside the target's body. For 1 minute, the target gains resistance to Acid, Fire, Poison, Lightning, and Thunder damage. They also gain a flying and swimming speed equal to their walking speed for the duration.</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Frosted Grapes</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: Sous Chef feature</text>
+		<text />
+		<text>Grapes dusted with white sugar. When ingested, it powers the nerves at an enhanced rate. For 1 minute, the target adds 1d4 to all damage rolls and ability checks they make using Dexterity.</text>
+		<text>	The die rolled for this morsel increases when you reach certain levels in this class: 10th level (1d6), 15th level (1d8), 20th level (1d10).</text>
+		<text/>
+		<text>Source: Cook Class p. 8</text>
+	</spell>
+	<spell>
+		<name>Morsel: Strong Ale</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level, Sous Chef feature</text>
+		<text />
+		<text>Intensely fermented alcohol. When ingested, it loosens the body's muscles. The target gains resistance to nonmagical bludgeoning, piercing, and slashing damage from weapon attacks for 1 minute.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Honeyed Fish</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 13th level, Sous Chef feature</text>
+		<text />
+		<text>A sweet and juicy fish. When ingested, it boosts the powers of the mind. The target has advantage on all Intelligence, Wisdom, and Charisma checks for 1 minute.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Pine Nut Mash</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 17th level, Sous Chef feature</text>
+		<text />
+		<text>Roasted pine nuts smashed into a chunky cream. When ingested, it gives the target a sweet, fragrant breath. All friendly creatures within 10 feet of the target (including the target) have advantage on saving throws for 1 minute.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Stinking Sprouts</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: Mess Sergeant feature</text>
+		<text />
+		<text>Brussel sprouts wrapped in ham. When ingested, they power consistent and disruptive flatulence. The target gains immunity to the charmed and frightened conditions for 1 minute.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Bloating Beans</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level, Mess Sergeant</text>
+		<text />
+		<text>Hearty, yet swelling food. When ingested by a Medium or smaller creature, the target grows into a much pudgier, threatening form. The target's size doubles, and its weight is multiplied by eight for 1 minute. This growth increases its size by one category. The target also gains advantage on Strength checks and Strength saving throws for the duration.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Jittering Coffee</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 13th level, Mess Sergeant feature</text>
+		<text />
+		<text>Coffee with an unnaturally high amount of caffeine. When ingested, it supercharges the nerves, constantly sending electrical currents through the heart. For 1 minute, if the target drops to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and this morsel's effect ends.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Fatty Oats</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 17th level, Mess Sergeant feature</text>
+		<text />
+		<text>Complex grains suffused with healthy fats. When ingested, it builds up the hardiness of the skin to prevent harm. The target has resistance to all damage until the end of your next turn.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Greasy Slosh</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: Hash Slinger</text>
+		<text />
+		<text>A thick, heavy, and acidic porridge. When ingested, it forces the body to use a significant amount of energy to process. The target must make a Constitution saving throw. On a failed save, it takes 1d6 acid damage and is considered restrained for 1 minute. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the effect ends on the target. On a successful save, the target takes half damage and is not restrained.</text>
+		<text>	The morsel's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 9th level (4d6), 13th level (5d6), 17th level (6d6), and 20th level (7d6).</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Fire Salts</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level, Hash Slinger feature</text>
+		<text />
+		<text>A rare and combustible spice. When ingested, it mixes with the target creature's breath and spit to create a fiery discharge. All creatures within 15 feet of the target (including the target) must make a Dexterity saving throw. On a failed save they take 4d6 fire damage, or half as much on a successful save.</text>
+		<text>	The morsel's damage increases by 1d6 when you reach certain levels in this class: 9th level (5d6), 13th level (6d6), 17th level (7d6), 20th level (8d6).</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Garlic Tuna</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 13th level, Hash slinger feature</text>
+		<text />
+		<text>Festering tuna baked in over-ripened garlic. When ingested, it causes the target to exude rot from every pore. The target must make a Constitution saving throw. On a failed save, all hostile creatures within 10 feet of the target (including the target) have disadvantage on saving throws for 1 minute.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Rancid Onion</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 17th level, Hash Slinger feature</text>
+		<text />
+		<text>A vegetable in the heat of decomposition. When ingested, the target sprays the vegetable's over-ripened juices all around itself. All hostile creatures within 30 feet of the target (including the target) must make a Constitution saving throw. On a failed save they are paralyzed until the start of your next turn and blinded for 1 minute. At the end of each of its turns, a target can make another Constitution saving throw. On a success, they are no longer blinded.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Underdark Draught</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: Brewmeister feature</text>
+		<text />
+		<text>A pitch black ale, foaming with shadows. When ingested, the target immediately vomits magical darkness that fills a 10- foot radius sphere centered on the target. A creature with darkvision can't see through this darkness and nonmagical light can't illuminate it.</text>
+		<text>	The darkness lasts for 1 minute. All creatures friendly to the target (including the target) can see through this magical darkness.</text>
+		<text/>
+		<text>Source: Cook Class p. 9</text>
+	</spell>
+	<spell>
+		<name>Morsel: Vodka Slushie</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 7th level, Brewmeister feature</text>
+		<text />
+		<text>A white swirl of frozen vodka, misting a boozy aroma. When ingested, the target immediately vomits snow that covers the ground around them. The ground in a 15-foot radius centered on the target becomes covered with snow.</text>
+		<text>	The snow is considered difficult terrain for all creatures hostile to the target. When the snow is vomited, all creatures hostile to the target within in the area must make a Strength saving throw. On a failed save, a creature is pushed out of the snow's area, away from the target. The snow lasts for 1 minute, or until melted by an intense heat.</text>
+		<text/>
+		<text>Source: Cook Class p. 10</text>
+	</spell>
+	<spell>
+		<name>Morsel: Hellfire Whiskey</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 13th level, Brewmeister feature</text>
+		<text />
+		<text>A grey liquor, with sickly, yellow flames caressing the surface. When ingested, the target's eyes and body become wreathed in yellow-green flames for 1 minute. The flames shed dim light in a 10-foot radius, reaching out to drain the life of the target's enemies. When a large or smaller creature that is hostile to the target moves into the dim light for the first time on a turn, or starts its turn there, they must make a Constitution saving throw. On a failed save, they suffer one level of exhaustion.</text>
+		<text/>
+		<text>Source: Cook Class p. 10</text>
+	</spell>
+	<spell>
+		<name>Morsel: Angel's Kiss</name>
+		<level>0</level>
+		<time/>
+		<range/>
+		<components/>
+		<duration/>
+		<classes>Morsels</classes>
+		<text>Prerequisite: 17th level, Breweister feature</text>
+		<text />
+		<text>White wine, bubbling with divine energy. When ingested, the target sheds bright light in a 30 foot radius, and dim light for an additional 30 feet for 1 minute. When a creature hostile to the target starts their turn in the bright light, they must make a Constitution saving throw. On a failed save, they are blinded until the start of their next turn. Creatures with darkvision make this save with disadvantage.</text>
+		<text/>
+		<text>Source: Cook Class p. 10</text>
+	</spell>
+</compendium>
