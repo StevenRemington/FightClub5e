@@ -49,7 +49,7 @@
 				<text>At 1st level, you form a covenant with a type of dragon. The damage type associated with each dragon</text>
 				<text>	is used by features you gain later. You also gain the service of a dragon, who's statistics can be</text>
 				<text>  found at the end of the document. The dragon gains additional damage immunities and traits, depending</text>
-				<text>  on the type of dragon you chose for your Dragon Covenant.<text>
+				<text>  on the type of dragon you chose for your Dragon Covenant.</text>
                 <text />
                 <text> |Dragon |Damage Type|</text>
                 <text> |:------|:----------|</text>
@@ -255,7 +255,7 @@
 				<text>As an action on its turn, the dragon can exhale this destructive energy. Each creature in the area takes 4d8 damage on a failed save, or half as much on a successful one, with the saving throw calculated as follows:</text>
                 <text />
                 <text>**Breath save DC** = 8 + your proficiency bonus + your dragon's Constitution modifier</text>
-                </text>
+                <text />
                 <text>The area of the line and cone and the damage of the breath weapon increase as you gain levels in this class, as shown below.</text>
                 <text />
                 <text>| Level | Damage | Area                             |</text>
@@ -464,7 +464,7 @@
         <autolevel level="3">
 			<feature optional="YES">
 				<name>Elemental Weaponry (Elemental)</name>
-				<text>At 3rd level, whenever you cast a spell of 1st level or higher, you can imbue your weapon with elemental power until the end of your next turn. When you make an attack with an imbued weapon and hit, the target takes extra damage of the type associated with your Draconic Covenant, in addition to he weapon's normal damage. The extra damage is 1d6 for a <br>1st-level spell slot, plus 1d6 for each spell level <br>higher than 1st, to a maximum of 5d6.</text>
+				<text>At 3rd level, whenever you cast a spell of 1st level or higher, you can imbue your weapon with elemental power until the end of your next turn. When you make an attack with an imbued weapon and hit, the target takes extra damage of the type associated with your Draconic Covenant, in addition to he weapon's normal damage. The extra damage is 1d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 5d6.</text>
 			</feature>
 		</autolevel>
 
