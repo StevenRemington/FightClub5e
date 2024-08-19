@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+	<class>
+		<name>The Dragon Knight</name>
+		<hd>10</hd>
+		<proficiency>Constitution, Charisma, Arcana, Athletics, Deception, Intimidation, Perception, Persuasion</proficiency>
+		<spellAbility>Charisma</spellAbility>
+		<numSkills>3</numSkills>
+		<armor>Light armor, medium armor, heavy armor</armor>
+		<weapons>Simple weapons, Martial Weapons</weapons>
+		<tools></tools>
+		<wealth>5d4x10</wealth>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Starting Dragon Knight</name>
+				<text>As a 1st-level Dragon Knight, you begin play with 10+your Constitution modifier hit points.</text>
+				<text />
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>&#8226; Armour: All armour,  shields</text>
+				<text>&#8226; Weapons: Simple weapons, martial weapons</text>
+				<text>&#8226; Tools: None</text>
+				<text>&#8226; Skills: Choose two from Arcana, Athletics, Deception, Intimidation, Perception and Persuasion.</text>
+				<text />
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>&#8226; (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>&#8226; (a) chain mail, (b) scale mail, or (c) leather armour</text>
+				<text>&#8226; (a) a light crossbow and 20 bolts or (b) five javelins</text>
+				<text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack</text>
+				<text />
+				<text>Alternatively, you could begin with starting wealth of 5d4 x 10 gp and purchase starting items of your choice.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Multiclass Dragon Knight</name>
+				<text> To qualify for multiclassing into the dragon knight class, you must meet these prerequisites:</text>
+				<text>&#8226; Strength and Charisma 13.</text>
+				<text />
+				<text>You gain the following proficiencies:</text>
+				<text>&#8226; Light armour, medium armour, shields, simple weapons, and martial weapons</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Dragon Covenant</name>
+				<text>At 1st level, you form a covenant with a type of dragon. The damage type associated with each dragon</text>
+				<text>	is used by features you gain later. You also gain the service of a dragon, who's statistics can be</text>
+				<text>  found at the end of the document. The dragon gains additional damage immunities and traits, depending</text>
+				<text>  on the type of dragon you chose for your Dragon Covenant.<text>
+                <text />
+                <text> |Dragon |Damage Type|</text>
+                <text> |:------|:----------|</text>
+                <text> |Black  |Acid       |</text>
+                <text> |Blue   |Lightning  |</text>
+                <text> |Brass  |Fire       |</text>
+                <text> |Bronze |Lightning  |</text>
+                <text> |Copper |Acid       |</text>
+                <text> |Gold   |Fire       |</text>
+                <text> |Green  |Poison     |</text>
+                <text> |Red    |Fire       |</text>
+                <text> |Silver |Cold       |</text>
+                <text> |White  |Cold       |</text>
+                <text />
+                <text>When you die, your dragon also dies after a number of hours equal to your dragon knight level. If your</text>
+                <text>  dragon companion is ever slain, the magical bond you share allows you to return it to life. With 8</text>
+                <text>  hours of work and the expenditure of 25 gp worth of precious gems per your dragon knight level,</text>
+                <text>  you can call forth your companion's spirit and use your magic to create a new body for it. You</text>
+                <text>  can return a dragon companion to life in this manner even if you do not possess any part of its body.</text>
+                <text />
+                <text>Returning your dragon to life is a gruelling process, and you must expend a number of hit dice equal</text>
+                <text>  to half your dragon knight level (rounded up) to perform this ritual.</text>
+                <text />
+                <text>Finally, you can speak, read, and write Draconic due to the bond you and your dragon share.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="1">
+			<feature>
+				<name>Companion's Bond</name>
+				<text>Also at 1st level, your dragon gains a number of benefits because of the bond you have forged together.</text>
+                <text />
+                <text>The dragon obeys your commands as best it can. Your dragon shares your initiative, and acts on your</text>
+                <text>  turn. You determine its actions, decisions, attitudes, and so on (no action required by you). If</text>
+                <text>  you are incapacitated, your dragon acts on its own. If you're absent, it rolls its own initiative.</text>
+				<text />
+                <text>Your dragon can't take the Attack action. It has yet to master flying and falls if it ends its turn in the air. Additionally,</text>
+                <text>  it can't be used as a mount or can't fly with a creature it has grappled.</text>
+                <text />
+                <text>Your dragon companion has abilities and game statistics determined in part by your level. Your</text>
+                <text>  dragon uses your proficiency bonus rather than its own. While not wearing barding, your dragon</text>
+                <text>  companion has a natural armour class of 11 + its Constitution modifier + your proficiency bonus.</text>
+                <text />
+                <text>For each dragon knight level after 1st, your dragon companion gains hit points equal to 6 + its Constitution modifier,</text>
+                <text>  and it gains one additional hit die. The dragon's hit dice are d10s, regardless of its size.</text>
+                <text>  When the dragon is reduced to 0 hit points, it makes death saving throws as a player would.</text>
+                <text />
+                <text>Your dragon companion also gains proficiency in two skills of your choice, and shares your saving</text>
+                <text>  throw proficiencies. Your dragon companion can't attune to or activate magical items.</text>
+                <text />
+                <text>Your dragon companion's level is equal to your dragon knight level for the purpose of</text>
+                <text>  calculating spells like *polymorph* and *true polymorph*.</text>
+                <text />
+                <text>You and your dragon always know the direction to one another, and can communicate with vague</text>
+                <text>  images, emotions, and feelings, regardless of distance to one another.</text>
+                <text />
+                <text>Whenever you gain the Ability Score Improvement class feature, your dragon's abilities also improve. Your dragon can</text>
+                <text>  increase one ability score of your choice by 2, or it can increase two ability scores of your</text>
+                <text>  choice by 1. As normal, your dragon can't increase an ability score above 20 using this feature.</text>
+                <text>  Your dragon companion can't take feats.</text>
+                <text />
+                <text>Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or</text>
+                <text>select from the tables below. Your dragon shares your ideal, and its bond is always</text>
+                <text>"I will protect my knight;  I will do the best I can for my knight; I will die for my knight."</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Dueling, Great Weapon Fighting, or Two-Weapon Fighting. You can't take a Fighting Style option more than once, even if you later get to choose again.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 72</text>
+			</feature>
+		</autolevel>
+    <autolevel level="2">
+			<feature optional="YES">
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 72</text>
+				<special>fighting style archery</special>
+			</feature>
+		</autolevel>
+    <autolevel level="2">
+			<feature optional="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 72</text>
+				<special>fighting style dueling</special>
+			</feature>
+		</autolevel>
+    <autolevel level="2">
+			<feature optional="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 72</text>
+			</feature>
+		</autolevel>
+    <autolevel level="2">
+			<feature optional="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<text/>
+				<text>Source: Player's Handbook p. 72</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature>
+				<name>Dragon's Fury</name>
+				<text>At 2nd level, your dragon companion is ready for battle, and can now take the Attack action in combat.</text>
+                <text />
+				<text>Additionally, your dragon gains the following attack options, which it can use with the Attack action.</text>
+                <text>  Your dragon is proficient with them, and adds its Strength modifier to their attack and damage rolls.</text>
+                <text>  If an option causes a creature to make a saving throw, the save DC is equal to 8 + your proficiency bonus</text>
+                <text>  + the dragon's Strength modifier. Your dragon can use these attack options a number of times equal to its</text>
+                <text>  Strength modifier (minimum of once.) It regains any expended uses when it finishes a short or long rest.</text>
+				<text />
+                <text>&#8226; Bite Attack: Your dragon makes a melee weapon attack against a creature within 5 feet of it.</text>
+                <text>   On a hit, the target takes 1d6 piercing damage, and an extra 1d6 damage. This extra damage increases</text>
+                <text>   to 2d6 at 6th level, 3d6 at 10th level, and 4d6 at 14th level. The additional damage is the same type as</text>
+                <text>   the one associated with your Draconic Covenant.</text>
+                <text />
+                <text>&#8226; Tail Attack: The dragon makes a melee weapon attack against a creature within 5 feet of it. On a hit, the target takes 1d6 bludgeoning damage, and must succeed on a Strength saving throw or be knocked prone. The reach of this attack increases to 10ft at 6th level, 15ft at 10th level, and 20ft at 14th level.</text>
+                <text />
+                <text>&#8226; Wing Attack: Rather than making an attack, your dragon can beat its wings. Creatures of your choice within 5 feet of your dragon must make a Strength saving throw. On a failed save, a creature is pushed 5 feet away from the dragon. The range of the push and distance a creature is pushed on a failed save increase by 5 feet at 6th level, 10th level, and 14th level. Immediately after making this special attack, your dragon can move up to half its flying speed.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature>
+				<name>Dragon Knight Practice</name>
+				<text>At 3rd level, you can choose a Practice that defines your combat style, either Rider, Elemental, Platinum, or Shadow. These practices are detailed at the end of the class description.</text>
+				<text />
+				<text>Your choice grants you features when you choose it at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="3">
+			<feature>
+				<name>Eye for Detail</name>
+				<text>Also at 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 1 minute studying a gem or art piece, after which you learn it's exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is.</text>
+				<text />
+				<text>Furthermore, you can cast the *identify* spell, but only as a ritual. You don't require material components for the spell when you cast it this way.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature>
+				<name>Coordinated Assault</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				<text />
+				<text>At 11th level, when you miss a weapon attack on your turn, your dragon can use their reaction to make a single claw attack.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="5">
+			<feature>
+				<name>Draconic Growth</name>
+				<text>At 5th level your dragon companion's flying speed increases by 15 feet, it’s other speeds increase by 10 feet, and it no longer falls to the ground if it ends its turn in the air. At 9th level it's flying speed and other speeds increase by a further 15 feet and 10 feet respectively.</text>
+			</feature>
+		</autolevel>
+        <autolevel level="5">
+			<feature>
+				<name>Rending Strikes</name>
+				<text>Also at 5th level, the damage of your dragon's bite, claw, and tail attacks increases to 2d6.</text>
+                <text />
+                <text>Additionally, your dragon companion's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature>
+				<name>Breath Weapon</name>
+				<text>Starting at 6th level, your dragon has developed the ability to unleash raw, destructive elements from its mouth. The damage of the breath weapon, as well as its area, is determined by the colour of your dragon.</text>
+                <text />
+                <text>| Dragon   | Damage Type | Breath Weapon                |</text>
+                <text>|:---------|:------------|:-----------------------------|</text>
+                <text>| Black    | Acid        | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Blue     | Lightning   | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Brass    | Fire        | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Bronze   | Lightning   | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Copper   | Acid        | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Gold     | Fire        | 15 ft. cone (Dex. save)      |</text>
+                <text>| Green    | Poison      | 15 ft. cone (Con. save)      |</text>
+                <text>| Platinum | Radiant     | 5 by 30 ft. line (Dex. save) |</text>
+                <text>| Red      | Fire        | 15 ft. cone (Dex. save)      |</text>
+                <text>| Shadow   | Necrotic    | 15 ft. cone (Con. save)      |</text>
+                <text>| Silver   | Cold        | 15 ft. cone (Con. save)      |</text>
+                <text>| White    | Cold        | 15 ft. cone (Con. save)      |</text>
+				<text />
+				<text>As an action on its turn, the dragon can exhale this destructive energy. Each creature in the area takes 4d8 damage on a failed save, or half as much on a successful one, with the saving throw calculated as follows:</text>
+                <text />
+                <text>**Breath save DC** = 8 + your proficiency bonus + your dragon's Constitution modifier</text>
+                </text>
+                <text>The area of the line and cone and the damage of the breath weapon increase as you gain levels in this class, as shown below.</text>
+                <text />
+                <text>| Level | Damage | Area                             |</text>
+                <text>|:------|:-------|:---------------------------------|</text>
+                <text>| 6th   | 4d8    | 5 by 30 ft. line / 15 ft. cone   |</text>
+                <text>| 10th  | 6d8    | 10 by 60 ft. line / 30 ft. cone  |</text>
+                <text>| 14th  | 8d8    | 10 by 120 ft. line / 60 ft. cone |</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature>
+				<name>Draconic Advancement</name>
+				<text>At 9th level, your dragon companion matures, allowing you to fight together more fluidly. Your dragon companion's size is now large, it can be used as a mount, and it is able to fly with a creature it has grappled. Additionally, as long as your dragon companion can see you, it has advantage on all saving throws.</text>
+				<text />
+			</feature>
+		</autolevel>
+
+        <autolevel level="11">
+			<feature>
+				<name>Draconic Nature</name>
+				<text>At 11th level, you take on the physical aspects of a dragon. You gain resistance to the damage type associated with your Draconic Covenant, and you gain one of the following benefits:</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="11">
+			<feature optional="YES">
+				<name>Draconic Nature: Scales</name>
+				<text>Scales cover sections of your body, helping shield you from harm. While you aren't wearing armour, your AC equals 10 + your Dexterity modifier + your Charisma modifier. You can still wield a shield and get this benefit.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="11">
+			<feature optional="YES">
+				<name>Draconic Nature: Eyes</name>
+				<text>Your eyes become sharp and focused. You gain proficiency in the Perception and Investigation skills if you aren't already, and you have advantage on any (Wisdom) Perception or (Intelligence) Investigation checks based on sight.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="11">
+			<feature optional="YES">
+				<name>Draconic Nature: Tail</name>
+				<text>Your spine extends and you grow a scaled, muscular tail. When you take the Attack action on your turn, you can attempt to shove a creature within 10 feet of you as a bonus action.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="13">
+			<feature>
+				<name>Titanic Roar</name>
+				<text>Starting at 13th level, your dragon can let loose a vicious roar, filling nearby creatures with dread.</text>
+				<text />
+                <text>As an action on its turn, your dragon can roar. Any number of creatures of your choice within 20 feet of the dragon must make a Wisdom saving throw against the dragon's breath weapon DC. On a failed save, creatures are frightened of the dragon for 1 minute. The creature can repeat the saving throw at the end each of their turns, ending the effect on a success.</text>
+				<text />
+                <text>Once your dragon has used this ability, it can't do so again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="14">
+			<feature>
+				<name>Legacy of the Dragon</name>
+				<text>At 14th level, you have been blessed with a dragon's extended lifespan. You age only one year for every ten years that pass, and can't be aged magically.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="17">
+			<feature>
+				<name>Ancient Resistance</name>
+				<text>At 17th level, you can shrug off even the most dangerous effects. Whenever you or your dragon fail a saving throw, you can choose to turn that failure into a success.</text>
+                <text />
+                <text>Once you use this feature, you can't do so again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text />
+				<text>Source: Cook Class p. 3</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="20">
+			<feature>
+				<name>Fullfilled Covenant</name>
+				<text>At 20th level, you and your dragon share hit points, the total of which is equal to your hit point maximum + your dragon’s hit point maximum. Whenever one of you takes damage, that damage is subtracted from your combined hit point maximum. When this hit point maximum hits 0, both you and your dragon fall unconscious, but only you make death saving throws. If you become stable or die, so does your dragon. If you receive any healing, both you and your dragon return to consciousness. When you spend hit dice during a short rest, you can use both your hit dice and your dragon’s hit dice to restore hit points.</text>
+				<text />
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon Knight Practice: Rider</name>
+				<text>The bond between a dragon knight and their dragon is strong, but those of the Rider Practice take that even further. They seek to live and to die beside their dragon, a sentiment shared by the dragon itself. While not all riders mount their dragons, those who don't are rare. Those of the Rider Practice fight in tandem with their dragon, and win in tandem with them.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon's Claw (Rider)</name>
+				<text>Starting at 3rd level, you're able to better co-ordinate with your dragon. While both you and your dragon are within 5 feet of a hostile creature, the creature has disadvantage on attack rolls that don't target you or your dragon.</text>
+				<text />
+				<text>Additionally, when a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to attempt to grapple or shove the creature.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon's Eye (Rider)</name>
+				<text>At 3rd level, you and your dragon's keen understanding of each other allows you to better act in battle. You and your dragon can add your Charisma modifier to each of your initiative rolls.</text>
+				<text />
+				<text>Additionally, if you can see your dragon, creatures that it can see don't gain advantage on attack rolls against you as a result of being hidden from you.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Dragon's Scale (Rider)</name>
+				<text>Starting at 7th level, if your dragon is within 5 feet of you, it can protect you from a creature it can see as an action. Until the start of the dragon's next turn, the creature's  attack rolls against you have disadvantage. If your dragon isn't within 5 feet of you, the effect ends.</text>
+				<text />
+				<text>Additionally, you can use an action to stabilize your dragon, without needing  to make a Wisdom (Medicine) check. When stabilized this way, your dragon  will regain 1 hit point after 1d4 minutes instead of 1d4 hours.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Dragon's Wing (Rider)</name>
+				<text>Starting at 10th level, you and your dragon rule the sky. Mounting and dismounting your dragon only costs 5 feet  of movement instead of half your speed, you have  advantage on saving throws made to avoid falling  off your dragon, and neither you or your dragon  take fall damage if you fall 20 feet or less.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Dragon's Fang (Rider)</name>
+				<text>Starting at 15th level, you and your dragon are able to tear through your enemies. If your dragon moves at least 20 feet straight toward a creature and then hits it with a melee weapon attack in the same turn, the target takes an extra 2d6 damage.</text>
+				<text />
+				<text>Additionally, your dragon can use an action to rampage and make a claw  attack against any number of creatures within 5 feet of it, with a separate attack roll for each target. If you're within 5 feet of your dragon when they rampage, you can use your reaction to make a melee weapon attack against  each creature within your reach that was attacked by your dragon during their rampage. Your dragon can't rampage again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Dragon's Presense (Rider)</name>
+				<text>Starting at 18th level, the range of Titanic Roar is increased to 120 feet, creatures that are frightened of your dragon have a speed of 0, and when you or your dragon hit a creature that is frightened of your dragon with a weapon attack, the attack is considered a critical hit.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon Knight Practice: Elemental</name>
+				<text>Dragon knights of the Elemental Practice value the raw, destructive power of their dragons, as well as their inherent charisma, and strive to both emulate and empower this aspect of their dragons through magic.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="3">
+			<feature optional="YES">
+				<name>Spellcasting (Elemental)</name>
+				<text>When you reach 3rd level, you heighten your battle ferocity with the ability to cast spells. See chapter 10 of the *Player's Handbook* for the general rules of spellcasting and chapter 11 of the *Player's Handbook* for the sorcerer spell list.</text>
+				<text/>
+				<text>Cantrips: You learn two cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 10th level.</text>
+				<text/>
+				<text>Spell Slots: The Elemental Practice Spellcasting table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.</text>
+				<text/>
+				<text>Spells Known of 1st-level and Higher: You know two 1st-level sorcerer spells of your choice. Both must be from the enchantment and evocation spells on the sorcerer spell list.</text>
+				<text>	The Spells Known column of the Elemental Spellcasting table shows when you can learn more sorcerer spells of 1st level or higher. Each of these spells must be an enchantment and evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st of 2nd level.</text>
+				<text>	Whenever you gain a level in this class, you can replace one of the sorcerer spells you know with another spell of your choice from the sorcerer spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or enchantment spell.</text>
+				<text/>
+				<text>Spellcasting Ability: Charisma is your spellcasting ability for your sorcerer spells, since your magic draws from the power and dominance of dragons. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</text>
+				<text/>
+				<text>Spell save DC = 8+your proficiency bonus + your Charisma modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+				<text/>
+				<text>Source: Player's Handbook p. 75</text>
+			</feature>
+		</autolevel>
+        <autolevel level="3">
+			<slots optional="YES">2, 2</slots>
+		</autolevel>
+        <autolevel level="3">
+			<feature optional="YES">
+				<name>Elemental Weaponry (Elemental)</name>
+				<text>At 3rd level, whenever you cast a spell of 1st level or higher, you can imbue your weapon with elemental power until the end of your next turn. When you make an attack with an imbued weapon and hit, the target takes extra damage of the type associated with your Draconic Covenant, in addition to he weapon's normal damage. The extra damage is 1d6 for a <br>1st-level spell slot, plus 1d6 for each spell level <br>higher than 1st, to a maximum of 5d6.</text>
+			</feature>
+		</autolevel>
+
+        <autolevel level="4">
+			<slots optional="YES">2, 3</slots>
+		</autolevel>
+        <autolevel level="7">
+			<slots optional="YES">2, 4, 2</slots>
+		</autolevel>
+        <autolevel level="7">
+			<feature optional="YES">
+				<name>Dragon Rush (Elemental)</name>
+				<text>At 7th level, when you use your action to cast a spell, if your dragon companion can see you, it can use its reaction to move up to half its speed without provoking attacks of opportunity.</text>
+			</feature>
+		</autolevel>
+        
+        <autolevel level="10">
+			<slots optional="YES">3, 4, 3</slots>
+		</autolevel>
+
+        <autolevel level="10">
+			<feature optional="YES">
+				<name>Elemental Fury (Elemental)</name>
+				<text>At 10th level, When you roll a 1 or 2 on a damage die of the type associated with your Draconic Covenant, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</text>
+			</feature>
+		</autolevel>        
+        <autolevel level="13">
+			<slots optional="YES">3, 4, 3, 2</slots>
+		</autolevel>
+        <autolevel level="15">
+			<feature optional="YES">
+				<name>Destructive Reach (Elemental)</name>
+				<text>At 15th level, your elemental prowess extends outward. When you make an attack with an imbued weapon and hit, you can have up to two creatures within 10 feet of the target of the attack take half as much additional damage.</text>
+			</feature>
+		</autolevel>
+        <autolevel level="16">
+			<slots optional="YES">3, 4, 3, 3</slots>
+		</autolevel>
+        <autolevel level="15">
+			<feature optional="YES">
+				<name>Annihilating Breath (Elemental)</name>
+				<text>At 18th level, when your dragon uses its Breath Weapon, you can empower it. It's area increases to a line 20 feet wide and 240 feet long if it's a line, or an 120-foot cone if it's a cone. Additionally, when you roll its damage, you can deal maximum damage instead of rolling. Finally, any damage your breath weapon deals ignores resistance to that damage.</text>
+                <text />
+                <text>Once you use this feature, you can't do so again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+        <autolevel level="19">
+			<slots optional="YES">3, 4, 3, 3, 1</slots>
+		</autolevel>
+		
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon Knight Practice: Platinum</name>
+				<text>A few dragon knights worship the Platinum Dragon, Bahamut. These few are members of the Platinum Practice, and are dedicated to preserving the lives of their allies and the innocent.</text>
+				<text />
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Draconic Radiance (Platinum)</name>
+				<text>At 3rd level, your draconic nature and that of your companion shifts to reflect the holy magic you now wield. The damage type associated with your Draconic Covenant becomes radiant, and any damage and condition immunities your dragon companion has are replaced with immunity to radiant damage.</text>
+				<text />
+				<text>Your dragon also physically shifts to reflect this change, and its scales change colour to look like the brightest platinum.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Platinum Protector (Platinum)</name>
+				<text>At 3rd level, as a bonus action on your turn, you can glow with divine power; you shed bright light in a 10 foot radius and dim light for an additional 10 feet for 1 minute.</text>
+				<text />
+				<text>Whenever you or another creature takes damage while in an area of bright light you shed, you can use your reaction to reduce the damage by an amount equal to 1d6 + half your dragon knight level.</text>
+                <text />
+                <text>Once you use this feature, you can't do so again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Holy Light (Platinum)</name>
+				<text>Beginning at 7th level, you now shed bright light in a 20 foot radius when you use your Platinum Protector feature. When you reach 15th level, the radius of the light increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Radiant Bastion (Platinum)</name>
+				<text>Beginning at 10th level, you're able to easily stand against the tide of battle. You and your dragon have advantage on ability checks and saving throws to avoid being knocked prone, grappled, restrained, or otherwise moved against your will.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Divine Covenant (Platinum)</name>
+				<text>Starting at 15th level, when you reduce the damage a creature would take to 0 with your Platinum Protector, you can cause that creature to gain a number of temporary hit points equal to 1d6 + your Charisma modifier, which last for 1 minute.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Platinum Ward (Platinum)</name>
+				<text>At 18th level, you and your dragon embrace the true power of Bahamut, and his grace safeguards you both. You and your dragon companion gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. Additionally, whenever you or your dragon take damage that would be equal to or lower than half your dragon knight level before resistances are applied, you instead take no damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Dragon Knight Practice: Shadow</name>
+				<text>Dragon knights who revere dark magic, or even strive to cause suffering in others, make up members of the Shadow Practice. Dark and elusive, these dragon knights use misdirection and guile to gain the upper hand in battle.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Draconic Darkness (Shadow)</name>
+				<text>At 3rd level, your draconic nature and that of your companion shifts to reflect the darkness you now wield. The damage type associated with your Draconic Covenant becomes necrotic, and any damage and condition immunities your dragon companion has are replaced with immunity to necrotic damage.</text>
+				<text />
+				<text>Your dragon also physically shifts to reflect this change, and its scales change colour to look like the darkest ebony.</text>
+			</feature>
+		</autolevel>
+        <autolevel level="3">
+			<feature optional="YES">
+				<name>Creeping Shadows (Shadow)</name>
+				<text>Also at 3rd level, you can move effortlessly across the battlefield, blending in with the shadows. You have a number of uses of this feature equal to your Charisma modifier, and regain all uses when you finish a long rest. As a bonus action on your turn, you can expend a use of it to conjure a 10-foot radius sphere at a point you can see within 30 feet of you, which becomes lightly obscured with wisps of dark energy. This sphere lasts for 1 minute, and any bright light inside the sphere becomes dim light. While inside this sphere, you and your dragon can each spend 5 feet of movement to teleport to any unoccupied space also inside a sphere. You and your dragon can each only teleport this way once per turn.</text>
+				<text />
+				<text>When you summon this sphere, you can expend additional uses of this feature. Each additional use expended increases the radius of the sphere by an additional 10 feet.</text>
+                <text />
+                <text>You can't have more than one sphere conjured this way at a time. If you summon a second sphere using this feature, the first sphere vanishes. If you move further than 120 feet from the sphere, it vanishes.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Withering Breath (Shadow)</name>
+				<text>Beginning at 7th level, when a creature fails its saving throw against your dragon's Breath Weapon feature, it begins to wither for 1 minute. During that time, when it hits a creature with a weapon attack that use Strength, the damage of that attack is reduced by an amount equal to your Charisma modifier. The target can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Night Walker (Shadow)</name>
+				<text>At 10th level, you and your dragon can take the Hide action as a bonus action while in dim light or in darkness. You and your dragon also have advantage on Dexterity (Stealth) checks you make to hide in dim light and darkness.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Shifting Shadows (Shadow)</name>
+				<text>Starting at 15th level, you can have up to two spheres conjured by your Creeping Shadows feature at once. If you summon a 3rd sphere, a sphere of your choice vanishes.</text>
+				<text />
+				<text>Additionally, when you roll initative and have no uses of your Creeping Shadows, you regain 1 use.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Umbra Pulse (Shadow)</name>
+				<text>At 18th level, your dragon can create a vortex of swirling darkness around itself as an action on your turn. Creatures of your choice within 30 feet of your dragon must make a Constitution saving throw, (DC = 8 + your proficiency bonus + your Charisma modifier). On a failed save, creatures take 10d10 necrotic damage and you can choose to have them either pulled up to 15 feet towards you or pushed up to 15 feet directly away from you. On a successful saving throw, creatures take half as much damage and aren't moved.</text>
+				<text />
+				<text>Once you use this ability, you can't do so again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+    </class>
+</compendium>
